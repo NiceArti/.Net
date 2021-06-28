@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Lesson3_Logical_Operations/1.0.0": {
+        "runtime": {
+          "Lesson3_Logical_Operations.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lesson3_Logical_Operations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
