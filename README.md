@@ -16,6 +16,8 @@
 * - **null операторы** 
 * - индексаторы
 
+
+Ссылка на мои конспекты [здесь](https://trello.com/net585)
 <br><br>
 
 ---
@@ -26,7 +28,7 @@
 <br>В пятой теме говориться об операторах <code>implicit/explicit</code>
 <br>Explicit - явное преобразование
 
-```
+```csharp
 public static explicit operator int(Counter counter)
 {
      return counter.Seconds;<br>
@@ -35,7 +37,7 @@ public static explicit operator int(Counter counter)
 
 <br>Implicit - неявное преобразование
 
-```
+```csharp
 public static implicit operator Counter(int x)
 {
      return new Counter { Seconds = x };
@@ -44,7 +46,7 @@ public static implicit operator Counter(int x)
 
 Используются для преобразования типов, как например:
 
-```
+```csharp
 //implicit
 int val = 10;
 double val2 = val;
