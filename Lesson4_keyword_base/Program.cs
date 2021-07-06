@@ -12,6 +12,12 @@ namespace Lesson4_keyword_base
             Person per2 = new Person("Brown");
             Admin adm = new Admin("Julina");
 
+            Employee employee = new Employee("Tom", "Microsoft");
+            Person person = employee;   // преобразование от Employee к Person
+            
+            //Employee employee2 = person;    // так нельзя, нужно явное преобразование
+            Employee employee2 = (Employee)person; 
+
             emp.Display();
             adm.Display();
             per1.Display();

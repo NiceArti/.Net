@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Lesson8_generalization_constraint/1.0.0": {
+        "runtime": {
+          "Lesson8_generalization_constraint.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lesson8_generalization_constraint/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
