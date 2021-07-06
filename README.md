@@ -16,3 +16,40 @@
 * - **null операторы** 
 * - индексаторы
 
+<br><br>
+
+---
+# 07/06/2021
+
+Сегодня вышел новый коммит, я добавил не все папки, а лишь те, которые содержат в себе код
+
+<br>В пятой теме говориться об операторах <code>implicit/explicit</code>
+<br>Explicit - явное преобразование
+
+```
+public static explicit operator int(Counter counter)
+{
+     return counter.Seconds;<br>
+}
+```
+
+<br>Implicit - неявное преобразование
+
+```
+public static implicit operator Counter(int x)
+{
+     return new Counter { Seconds = x };
+}
+```
+
+Используются для преобразования типов, как например:
+
+```
+//implicit
+int val = 10;
+double val2 = val;
+
+//explicit
+int val = 10;
+short val2 = (short) val;
+```
